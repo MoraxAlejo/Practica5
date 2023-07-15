@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca&family=Montserrat:wght@100;300&family=Poppins:wght@500&display=swap');
+
+* {
+  font-family: 'Lexend Deca', sans-serif;
+font-family: 'Montserrat', sans-serif;
+font-family: 'Poppins', sans-serif;
+
+
+}
+
+body {
+  background-image: url('/src/img/R.gif');
+  background-repeat: no-repeat;
+  background-size: 100%;
+
+}
+
+.padre {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.contenedortodo{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.contenedor-imagen {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.imagen {
+  width: 50%;
+  height: 50%;
+  border-radius: 50%;
+}
+
+.texto {
+  font-size: 50px;
+  color: white;
+}
